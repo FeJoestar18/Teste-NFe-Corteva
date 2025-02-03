@@ -11,8 +11,8 @@ describe('template spec', () => {
       
       cy.get('[style="margin-top: 30px"] > .btn').click()
       
-      cy.get('#cnpj_or_cpf').should('be.visible').type('72282593782')
-      cy.get('#password').should('be.visible').type('Teste@123')
+      cy.get('#cnpj_or_cpf').should('be.visible').type('250.980.800-10')
+      cy.get('#password').should('be.visible').type('Blux@2024')
       
       // CY.PAUSE(); PRO reCAPTCHA
       cy.pause()
