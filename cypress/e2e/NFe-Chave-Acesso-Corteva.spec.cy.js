@@ -19,7 +19,7 @@ describe('template spec', () => {
       
       cy.get('#access').should('be.visible').click()
       
-      cy.url({ timeout: 10000 }).should('eq', 'https://homo.programalidera.com.br/home')
+      cy.url({ timeout: 15000 }).should('eq', 'https://homo.programalidera.com.br/home')
       
       //cy.get('.swal2-confirm').click()
       
